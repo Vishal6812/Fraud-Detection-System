@@ -1,31 +1,23 @@
 # 💳 Credit Card Fraud Detection System
 
 ## 📌 Project Overview
-This project is a Machine Learning-based solution designed to detect fraudulent credit card transactions. Using a highly imbalanced dataset, I implemented data preprocessing and classification algorithms to accurately identify suspicious activities while minimizing false alarms.
+This project uses Machine Learning to identify fraudulent credit card transactions. Given that fraud cases are rare (imbalanced data), I implemented advanced preprocessing and classification techniques to ensure high accuracy.
 
 ## 🛠️ Tech Stack
 * **Language:** Python
-* **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
-* **ML Model:** Random Forest Classifier
-* **Visualization:** Power BI
+* **Libraries:** Pandas, Scikit-learn, Matplotlib, Seaborn
+* **Analysis:** Power BI (Dashboard)
 
 ## 📂 Dataset Information
-The dataset used is the "Credit Card Fraud Detection" dataset from Kaggle.
-* **Full Dataset:** The original `creditcard.csv` (143MB) is not uploaded due to GitHub's file size limits. 
-* **Download Link:** [Kaggle Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
-* **Sample Data:** I have included `sample_creditcard.csv` (a smaller version) so the code can be tested immediately.
+* **Full Dataset:** Due to GitHub's size limits, the 143MB `creditcard.csv` is not included.
+* **Source:** [Kaggle Credit Card Fraud Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+* **Testing:** Use the included `sample_creditcard.csv` to run the code immediately.
 
-## 📊 Business Insights (Power BI)
-Since the `.pbix` file is too large for GitHub, I have exported the full analysis as a PDF.
-* **View Report:** Open `Fraud_Dashboard_Report.pdf` in this repository to see the transaction trends, fraud distribution, and KPI cards.
+## 🚀 How to Use
+1. Download this repository.
+2. Ensure you have the required Python libraries installed.
+3. Open `fraud_detection.ipynb` and run the cells to see the model training and evaluation.
+4. View `Fraud_Dashboard_Report.pdf` for the visual data analysis.
 
-## 🚀 How to Run
-1. Clone this repository or download the ZIP.
-2. Install dependencies: `pip install pandas scikit-learn matplotlib seaborn`.
-3. Open `fraud_detection.ipynb` in Jupyter Notebook.
-4. Ensure `sample_creditcard.csv` is in the same folder and run all cells.
-
-## 📈 Results
-* **Model Accuracy:** ~95% on balanced test data.
-* **Key Finding:** Features V14 and V17 showed the highest correlation with fraudulent behavior.
-
+---
+**Author:** [vishal kumar yadav]
