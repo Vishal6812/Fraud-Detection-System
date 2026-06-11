@@ -27,9 +27,7 @@ You can download it from Kaggle:
 
 https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
-File used:
-
-creditcard.csv
+File used: creditcard.csv
 
 Features:
 
