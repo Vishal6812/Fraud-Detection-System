@@ -20,7 +20,16 @@ The main objective of this project is to:
 
 ## Dataset
 
-Dataset: Credit Card Fraud Detection Dataset
+Dataset: 
+ The dataset used in this project is too large to be included in this repository.
+
+You can download it from Kaggle:
+
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
+File used:
+
+creditcard.csv
 
 Features:
 
