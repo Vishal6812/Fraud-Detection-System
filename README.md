@@ -181,4 +181,3 @@ Fraud-Detection-System/
 
 Vishal Kumar
 
-Project completed as part of the Oasis Infobyte Data Science Internship Program.
